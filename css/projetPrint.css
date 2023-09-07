@@ -1,26 +1,29 @@
 /*body{
 	background-color: red;
 }*/
+/* #content{
+	border: 3px solid red;
+} */
 .conteneurBloca{
 	display: flex;
 	flex-wrap: wrap;
-	height: 90vh;
+	/* height: 90vh; */
 }
 
 		.bloca{
 			display: flex;
 			width: 30%;
-/*			height: 200px;*/
+			height: 250px;
 			text-decoration: none;
 			flex-direction: column;
 			transform: scale(1) ;
 			transition-duration: 1s;
 			margin: 1rem;
-/*			max-height: 150px;*/
+			max-height: 10%;
 		}
 		.bloca img {
 /*			    width: 80%;*/
-/*			    height: 10rem;*/
+			    height: 8rem;
 			    border-top-right-radius: 1rem;
 			    border-top-left-radius: 1rem;
 			    object-fit: cover;
@@ -37,6 +40,14 @@
 			display: flex;
 			justify-content: space-between;
 		}
+		.contener .descrip {
+		    word-wrap: break-word;
+		    padding-right: 0.8rem;
+		    padding-left: 0.8rem;
+		    font-size: 0.9rem;
+		    color: white;
+			height: 4rem;
+		}
 
 /*		.bloctexte .nomproduit {
 		    flex: 0.95;
@@ -48,14 +59,7 @@
 		    line-height: 2.4;
 		}
 
-		.contener .descrip {
-		    word-wrap: break-word;
-		    margin-top: -1.8rem;
-		    padding-right: 0.8rem;
-		    padding-left: 0.8rem;
-		    font-size: 0.9rem;
-		    color: white;
-		}
+
 		.contener{
 			display: flex;
 			flex-direction: column;
